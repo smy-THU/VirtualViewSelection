@@ -1,6 +1,8 @@
 # Learning Virtual View Selection for 3D Semantic Segmentation
 A pytorch implement of The paper “Learning Virtual View Selection for 3D Scene Semantic Segmentation”
 
+![Framework Fig](docs/pipeline.png)
+
 ## introduction
 
 we propose a general learning framework for joint 2D-3D scene understanding by selecting informative virtual 2D views of the underlying 3D scene. We feed both the 3D geometry and the generated virtual 2D views into any joint 2D-3D-input or pure 3D-input based deep neural models for improving 3D scene understanding. 
