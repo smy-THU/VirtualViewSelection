@@ -19,12 +19,15 @@ The repo contains 3 subprojects to show the application of our work on different
 $ pip install torch==1.4.0+cu100 torchvision==0.5.0+cu100 -f https://download.pytorch.org/whl/torch_stable.html
 # MinkowskiEngine 0.4.1
 $ conda install numpy openblas
+$ cd bpnet
 $ git clone https://github.com/StanfordVL/MinkowskiEngine.git
 $ cd MinkowskiEngine
 $ git checkout f1a419cc5792562a06df9e1da686b7ce8f3bb5ad
 $ python setup.py install
 # Others
 $ pip install imageio==2.8.0 opencv-python==4.2.0.32 pillow==7.0.0 pyyaml==5.3 scipy==1.4.1 sharedarray==3.2.0 tensorboardx==2.0 tqdm==4.42.1
+$ cd VMnet
+$ git clone https://github.com/huaaaliu/RGBX_Semantic_Segmentation.git
 ```
 
 - install open3d following instructions in [Open3D – A Modern Library for 3D Data Processing](https://www.open3d.org/)
