@@ -27,9 +27,11 @@ $ python setup.py install
 $ pip install imageio==2.8.0 opencv-python==4.2.0.32 pillow==7.0.0 pyyaml==5.3 scipy==1.4.1 sharedarray==3.2.0 tensorboardx==2.0 tqdm==4.42.1
 ```
 
-for each subproject, refer to their requirements.txt or environment.yml for more details
-
 - install open3d following instructions in [Open3D – A Modern Library for 3D Data Processing](https://www.open3d.org/)
+
+- For each subproject, refer to their requirements.txt or environment.yml for more details
+
+
 
 ## Prepare data
 
