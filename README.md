@@ -27,7 +27,7 @@ $ python setup.py install
 $ pip install imageio==2.8.0 opencv-python==4.2.0.32 pillow==7.0.0 pyyaml==5.3 scipy==1.4.1 sharedarray==3.2.0 tensorboardx==2.0 tqdm==4.42.1
 ```
 
-for each subproject, refer to their readme for details
+for each subproject, refer to their requirements.txt or environment.yml for more details
 
 - install open3d following instructions in [Open3D – A Modern Library for 3D Data Processing](https://www.open3d.org/)
 
@@ -140,5 +140,5 @@ CUDA_VISIBLE_DEVICES=0 python /VMnet/run.py --val --exp_name val --data_path dat
 
 #### checkpoints
 
-you can download the [pre-trained checkpoints](https://cloud.tsinghua.edu.cn/d/bf0f7a4a6c1c456d9262/) and evaluate on the validation set.
+you can download the [pre-trained checkpoints](https://cloud.tsinghua.edu.cn/d/bf0f7a4a6c1c456d9262/) and evaluate models on the validation set.
 
