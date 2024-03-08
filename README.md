@@ -13,6 +13,17 @@ The repo contains 3 subprojects to show the application of our work on different
 
 ## Environment
 
+- Requirements
+  - GPU RTX3090 (also compatible with other version of NVIDIA GTX/RTX GPU)
+  - Python 3.7
+  - Pytorch 1.4.0
+  - torchvision 0.5.0
+  - CUDA 10.0
+  - cudatoolkit 10.0.130
+  - cuDNN 7.6.5
+
+- Installation
+
 
 ```bash
 # Torch
